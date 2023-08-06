@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./main-page.css";
 import Header from "./header";
 
@@ -23,9 +24,17 @@ function App() {
   }, [allHouses]);
 
   return (
-    <div className="container">
-      <Header subtitle="Providing Houses All Over The World." />
-    </div>
+    <Router>
+      <div className="container">
+        <Header subtitle="Providing Houses All Over The World." />
+
+        <Switch>
+          <Route path="/">
+
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
