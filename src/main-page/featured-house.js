@@ -1,3 +1,5 @@
+import House from "../house";
+
 const FeatureHouse = ({house}) => {
     return (
         <div>

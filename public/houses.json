@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "adderess": "ghdhdyueuweio ddsyudui dyuduiwe",
+        "address": "ghdhdyueuweio ddsyudui dyuduiwe",
         "country": "Nigeria",
         "description": "ghsdghsjhsjh sdhdjhdj sdjhsdjd sdjhsdjksd",
         "price": "57996",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "adderess": "ghdhdyueuweio ddsyudui dyuduiwe",
+        "address": "ghdhdyueuweio ddsyudui dyuduiwe",
         "country": "Ghana",
         "description": "ghsdghsjhsjh sdhdjhdj sdjhsdjd sdjhsdjksd",
         "price": "57996",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "adderess": "ghdhdyueuweio ddsyudui dyuduiwe",
+        "address": "ghdhdyueuweio ddsyudui dyuduiwe",
         "country": "Togo",
         "description": "ghsdghsjhsjh sdhdjhdj sdjhsdjd sdjhsdjksd",
         "price": "57996",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "adderess": "ghdhdyueuweio ddsyudui dyuduiwe",
+        "address": "ghdhdyueuweio ddsyudui dyuduiwe",
         "country": "Nigeria",
         "description": "ghsdghsjhsjh sdhdjhdj sdjhsdjd sdjhsdjksd",
         "price": "57996",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "adderess": "ghdhdyueuweio ddsyudui dyuduiwe",
+        "address": "ghdhdyueuweio ddsyudui dyuduiwe",
         "country": "Nairobi",
         "description": "ghsdghsjhsjh sdhdjhdj sdjhsdjd sdjhsdjksd",
         "price": "57996",
