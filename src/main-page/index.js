@@ -1,11 +1,30 @@
-import logo from './logo.svg';
-import './main-page.css';
-import Header from './header';
+import { useEffect, useState, useMemo } from "react";
+import "./main-page.css";
+import Header from "./header";
 
 function App() {
+  const [allHouses, setAllHouses] = useState([]);
+
+  useEffect(() => {
+    const fetchHouses = async () => {
+      const response = await fetch("/houses.json");
+      const houses = await response.json();
+      setAllHouses(houses);
+    };
+    fetchHouses();
+  }, []);
+
+  // useMemo stores the value of a variable in Memory/Cache
+  let featuredHouse = useMemo(() => {
+    if (allHouses.length) {
+      const randomIndex = Math.floor(Math.random() * allHouses.length);
+      return allHouses[randomIndex];
+    }
+  }, [allHouses]);
+
   return (
-    <div className='container'>
-        <Header subtitle="Providing Houses All Over The World."/>
+    <div className="container">
+      <Header subtitle="Providing Houses All Over The World." />
     </div>
   );
 }
